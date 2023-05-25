@@ -1,0 +1,5 @@
+print('Hola, mundo')
+print('Bienvenido')
+print('Como te llamas?')
+nombre = input()
+print(f'Hola {nombre}')
