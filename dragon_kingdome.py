@@ -15,9 +15,14 @@ def mostrar_introduccion():
 
 def elegir_cueva():
     cueva_elegida = ''
-    while cueva_elegida != 1 and cueva_elegida != 2:
+    while cueva_elegida != "1" and cueva_elegida != "2":
         print('A que cueva quieres entrar? (1 o 2)')
         cueva_elegida = input()
+        if cueva_elegida != "1" or cueva_elegida != "2":
+            print('Debes ingresar 1 o 2')
+            continue
+        else:
+            pass
 
         return cueva_elegida
 
