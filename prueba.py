@@ -1,2 +1,1 @@
-print('spam')
-input()
+print('Buenas buenas')
